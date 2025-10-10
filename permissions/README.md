@@ -1,3 +1,1 @@
-# 0-iam_betty
-
-This script switches the current user to the user betty using the su command.
+3-new_owner: changes the owner of the file hello to user betty.
