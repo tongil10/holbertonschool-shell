@@ -1,6 +1,6 @@
 #!/bin/bash
-for f in *; do
-    if [ -d "$f" ]; then
-        chmod a+x "$f"
+for item in *; do
+    if [ -d "$item" ]; then
+        chmod a+x "$item"
     fi
 done
