@@ -1,3 +1,3 @@
 #!/bin/bash
-chmod -R +X .
+for dir in */; do [ -d "$dir" ] && chmod a+x "$dir"; done
 
